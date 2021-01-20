@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57F7DFF825B87E8A0050DE32 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7DFF725B87E8A0050DE32 /* Tests_iOS.swift */; };
+		57F7E00325B87E8B0050DE32 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7E00225B87E8B0050DE32 /* Tests_macOS.swift */; };
+		57F7E00525B87E8B0050DE32 /* SandwichesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7DFDC25B87E830050DE32 /* SandwichesApp.swift */; };
+		57F7E00625B87E8B0050DE32 /* SandwichesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7DFDC25B87E830050DE32 /* SandwichesApp.swift */; };
+		57F7E00725B87E8B0050DE32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7DFDD25B87E830050DE32 /* ContentView.swift */; };
+		57F7E00825B87E8B0050DE32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7DFDD25B87E830050DE32 /* ContentView.swift */; };
+		57F7E00925B87E8B0050DE32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F7DFDE25B87E8A0050DE32 /* Assets.xcassets */; };
+		57F7E00A25B87E8B0050DE32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F7DFDE25B87E8A0050DE32 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57F7DFF425B87E8A0050DE32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57F7DFD725B87E820050DE32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57F7DFE225B87E8A0050DE32;
+			remoteInfo = "Sandwiches (iOS)";
+		};
+		57F7DFFF25B87E8B0050DE32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57F7DFD725B87E820050DE32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57F7DFEA25B87E8A0050DE32;
+			remoteInfo = "Sandwiches (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57F7DFDC25B87E830050DE32 /* SandwichesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichesApp.swift; sourceTree = "<group>"; };
+		57F7DFDD25B87E830050DE32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		57F7DFDE25B87E8A0050DE32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57F7DFE325B87E8A0050DE32 /* Sandwiches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sandwiches.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F7DFE625B87E8A0050DE32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F7DFEB25B87E8A0050DE32 /* Sandwiches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sandwiches.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F7DFED25B87E8A0050DE32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F7DFEE25B87E8A0050DE32 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		57F7DFF325B87E8A0050DE32 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F7DFF725B87E8A0050DE32 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		57F7DFF925B87E8B0050DE32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F7DFFE25B87E8B0050DE32 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F7E00225B87E8B0050DE32 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		57F7E00425B87E8B0050DE32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57F7DFE025B87E8A0050DE32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F7DFE825B87E8A0050DE32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F7DFF025B87E8A0050DE32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F7DFFB25B87E8B0050DE32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57F7DFD625B87E820050DE32 = {
+			isa = PBXGroup;
+			children = (
+				57F7DFDB25B87E830050DE32 /* Shared */,
+				57F7DFE525B87E8A0050DE32 /* iOS */,
+				57F7DFEC25B87E8A0050DE32 /* macOS */,
+				57F7DFF625B87E8A0050DE32 /* Tests iOS */,
+				57F7E00125B87E8B0050DE32 /* Tests macOS */,
+				57F7DFE425B87E8A0050DE32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57F7DFDB25B87E830050DE32 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				57F7DFDC25B87E830050DE32 /* SandwichesApp.swift */,
+				57F7DFDD25B87E830050DE32 /* ContentView.swift */,
+				57F7DFDE25B87E8A0050DE32 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		57F7DFE425B87E8A0050DE32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57F7DFE325B87E8A0050DE32 /* Sandwiches.app */,
+				57F7DFEB25B87E8A0050DE32 /* Sandwiches.app */,
+				57F7DFF325B87E8A0050DE32 /* Tests iOS.xctest */,
+				57F7DFFE25B87E8B0050DE32 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57F7DFE525B87E8A0050DE32 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				57F7DFE625B87E8A0050DE32 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		57F7DFEC25B87E8A0050DE32 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				57F7DFED25B87E8A0050DE32 /* Info.plist */,
+				57F7DFEE25B87E8A0050DE32 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		57F7DFF625B87E8A0050DE32 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				57F7DFF725B87E8A0050DE32 /* Tests_iOS.swift */,
+				57F7DFF925B87E8B0050DE32 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		57F7E00125B87E8B0050DE32 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				57F7E00225B87E8B0050DE32 /* Tests_macOS.swift */,
+				57F7E00425B87E8B0050DE32 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57F7DFE225B87E8A0050DE32 /* Sandwiches (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F7E00D25B87E8B0050DE32 /* Build configuration list for PBXNativeTarget "Sandwiches (iOS)" */;
+			buildPhases = (
+				57F7DFDF25B87E8A0050DE32 /* Sources */,
+				57F7DFE025B87E8A0050DE32 /* Frameworks */,
+				57F7DFE125B87E8A0050DE32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sandwiches (iOS)";
+			productName = "Sandwiches (iOS)";
+			productReference = 57F7DFE325B87E8A0050DE32 /* Sandwiches.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57F7DFEA25B87E8A0050DE32 /* Sandwiches (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F7E01025B87E8B0050DE32 /* Build configuration list for PBXNativeTarget "Sandwiches (macOS)" */;
+			buildPhases = (
+				57F7DFE725B87E8A0050DE32 /* Sources */,
+				57F7DFE825B87E8A0050DE32 /* Frameworks */,
+				57F7DFE925B87E8A0050DE32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sandwiches (macOS)";
+			productName = "Sandwiches (macOS)";
+			productReference = 57F7DFEB25B87E8A0050DE32 /* Sandwiches.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57F7DFF225B87E8A0050DE32 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F7E01325B87E8B0050DE32 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				57F7DFEF25B87E8A0050DE32 /* Sources */,
+				57F7DFF025B87E8A0050DE32 /* Frameworks */,
+				57F7DFF125B87E8A0050DE32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57F7DFF525B87E8A0050DE32 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 57F7DFF325B87E8A0050DE32 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		57F7DFFD25B87E8B0050DE32 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F7E01625B87E8B0050DE32 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				57F7DFFA25B87E8B0050DE32 /* Sources */,
+				57F7DFFB25B87E8B0050DE32 /* Frameworks */,
+				57F7DFFC25B87E8B0050DE32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57F7E00025B87E8B0050DE32 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 57F7DFFE25B87E8B0050DE32 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57F7DFD725B87E820050DE32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					57F7DFE225B87E8A0050DE32 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					57F7DFEA25B87E8A0050DE32 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					57F7DFF225B87E8A0050DE32 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 57F7DFE225B87E8A0050DE32;
+					};
+					57F7DFFD25B87E8B0050DE32 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 57F7DFEA25B87E8A0050DE32;
+					};
+				};
+			};
+			buildConfigurationList = 57F7DFDA25B87E820050DE32 /* Build configuration list for PBXProject "Sandwiches" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57F7DFD625B87E820050DE32;
+			productRefGroup = 57F7DFE425B87E8A0050DE32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57F7DFE225B87E8A0050DE32 /* Sandwiches (iOS) */,
+				57F7DFEA25B87E8A0050DE32 /* Sandwiches (macOS) */,
+				57F7DFF225B87E8A0050DE32 /* Tests iOS */,
+				57F7DFFD25B87E8B0050DE32 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57F7DFE125B87E8A0050DE32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F7E00925B87E8B0050DE32 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F7DFE925B87E8A0050DE32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F7E00A25B87E8B0050DE32 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F7DFF125B87E8A0050DE32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F7DFFC25B87E8B0050DE32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57F7DFDF25B87E8A0050DE32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F7E00725B87E8B0050DE32 /* ContentView.swift in Sources */,
+				57F7E00525B87E8B0050DE32 /* SandwichesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F7DFE725B87E8A0050DE32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F7E00825B87E8B0050DE32 /* ContentView.swift in Sources */,
+				57F7E00625B87E8B0050DE32 /* SandwichesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F7DFEF25B87E8A0050DE32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F7DFF825B87E8A0050DE32 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F7DFFA25B87E8B0050DE32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F7E00325B87E8B0050DE32 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57F7DFF525B87E8A0050DE32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57F7DFE225B87E8A0050DE32 /* Sandwiches (iOS) */;
+			targetProxy = 57F7DFF425B87E8A0050DE32 /* PBXContainerItemProxy */;
+		};
+		57F7E00025B87E8B0050DE32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57F7DFEA25B87E8A0050DE32 /* Sandwiches (macOS) */;
+			targetProxy = 57F7DFFF25B87E8B0050DE32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		57F7E00B25B87E8B0050DE32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57F7E00C25B87E8B0050DE32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		57F7E00E25B87E8B0050DE32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QP225TF54Z;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.HungBranton.Sandwiches;
+				PRODUCT_NAME = Sandwiches;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57F7E00F25B87E8B0050DE32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QP225TF54Z;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.HungBranton.Sandwiches;
+				PRODUCT_NAME = Sandwiches;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57F7E01125B87E8B0050DE32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QP225TF54Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.HungBranton.Sandwiches;
+				PRODUCT_NAME = Sandwiches;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		57F7E01225B87E8B0050DE32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QP225TF54Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.HungBranton.Sandwiches;
+				PRODUCT_NAME = Sandwiches;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		57F7E01425B87E8B0050DE32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QP225TF54Z;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.HungBranton.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sandwiches (iOS)";
+			};
+			name = Debug;
+		};
+		57F7E01525B87E8B0050DE32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QP225TF54Z;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.HungBranton.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sandwiches (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57F7E01725B87E8B0050DE32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QP225TF54Z;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.HungBranton.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Sandwiches (macOS)";
+			};
+			name = Debug;
+		};
+		57F7E01825B87E8B0050DE32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QP225TF54Z;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.HungBranton.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Sandwiches (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57F7DFDA25B87E820050DE32 /* Build configuration list for PBXProject "Sandwiches" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F7E00B25B87E8B0050DE32 /* Debug */,
+				57F7E00C25B87E8B0050DE32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57F7E00D25B87E8B0050DE32 /* Build configuration list for PBXNativeTarget "Sandwiches (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F7E00E25B87E8B0050DE32 /* Debug */,
+				57F7E00F25B87E8B0050DE32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57F7E01025B87E8B0050DE32 /* Build configuration list for PBXNativeTarget "Sandwiches (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F7E01125B87E8B0050DE32 /* Debug */,
+				57F7E01225B87E8B0050DE32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57F7E01325B87E8B0050DE32 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F7E01425B87E8B0050DE32 /* Debug */,
+				57F7E01525B87E8B0050DE32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57F7E01625B87E8B0050DE32 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F7E01725B87E8B0050DE32 /* Debug */,
+				57F7E01825B87E8B0050DE32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57F7DFD725B87E820050DE32 /* Project object */;
+}
